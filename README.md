@@ -130,9 +130,40 @@ yarn add --dev react-test-renderer
 
 [React MD color-palette](https://react-md.dev/colors-and-theming/color-palette)
 
+### Build production
+
+````shell
+$ yarn build
+````
+
+Log:
+````
+Compiled successfully.
+
+File sizes after gzip:
+
+  82.15 kB  build/static/js/main.80e63489.js
+  17.81 kB  build/static/css/main.f8c9eeb6.css
+  1.79 kB   build/static/js/787.62ea5e01.chunk.js
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+Done in 71.50s.
+````
+
 ### Other
 
-for VS Code
+Switch between code window/terminal in VS Code:
 
 Press Ctrl + ` (backtick) to focus the terminal.
 Press Ctrl + 1 to focus the editor.
