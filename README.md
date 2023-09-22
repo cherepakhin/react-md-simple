@@ -125,3 +125,14 @@ add jest
 ````shell
 yarn add --dev react-test-renderer
 ````
+
+### Links
+
+[React MD color-palette](https://react-md.dev/colors-and-theming/color-palette)
+
+### Other
+
+for VS Code
+
+Press Ctrl + ` (backtick) to focus the terminal.
+Press Ctrl + 1 to focus the editor.
