@@ -95,12 +95,13 @@ react-md-my/simple$ yarn start
 >Press __Ctrl + 1__ to focus the editor.
 
 ***
+***
 
 ### ReactMD and Create React App Example
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using [react-md](https://react-md.dev) as the component library.
 
-## What's Included
+### What's Included
 
 This example will setup an example Create React App + ReactMD app that has the following features:
 
@@ -110,7 +111,7 @@ This example will setup an example Create React App + ReactMD app that has the f
   - initializes the `Layout` component from `react-md` with navigation items
   - uses [react-router-dom](https://www.npmjs.com/package/react-router-dom) as the routing library
 
-## How to Use
+### How to Use
 
 Since this example is not a separate repo, this example will need to be manually downloaded instead of using `create-react-app`:
 
@@ -129,13 +130,16 @@ yarn
 yarn start
 ```
 
-## Learn More
+### Learn More
 
 To learn more about react-md and Create React App, take a look at the following resources:
 
 - [react-md Documentation](https://react-md.dev)
 - [Configuring your Layout](https://react-md.dev/guides/configuring-your-layout)
 - [Create React App Documentation](https://create-react-app.dev/)
+
+***
+***
 
 # Getting Started with Create React App
 
