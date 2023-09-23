@@ -184,7 +184,7 @@ react-md-my/simple$ yarn start
 
 ### Размещение на сайте
 
-Содержимое каталога react-md-my/simple/build перенсти в /var/www/react-md-simple
+Содержимое каталога react-md-my/simple/build скопировать в /var/www/react-md-simple
 
 ### Links
 
