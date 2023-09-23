@@ -31,14 +31,6 @@ yarn
 yarn start
 ```
 
-Finally, initialize the git repo and create your first commit:
-
-```sh
-git init
-git add .
-git commit -m "Initial commit"
-```
-
 ## Learn More
 
 To learn more about react-md and Create React App, take a look at the following resources:
