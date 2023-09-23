@@ -88,10 +88,6 @@ react-md-my/simple$ yarn start
 
 Содержимое каталога react-md-my/simple/build скопировать в /var/www/react-md-simple
 
-### Links
-
-[React MD color-palette](https://react-md.dev/colors-and-theming/color-palette)
-
 > **_NOTE:_** VS Code
 >
 >Switch between code window/terminal:<br/>
@@ -199,3 +195,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Other links
+
+[React MD color-palette](https://react-md.dev/colors-and-theming/color-palette)
