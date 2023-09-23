@@ -37,7 +37,9 @@ const icons = {
 };
 
 export default function Layout({ children }) {
+  console.log("START Layout");
   const { pathname } = useLocation();
+  console.log(pathname);
   return (
     <Configuration icons={icons}>
       <RMDLayout

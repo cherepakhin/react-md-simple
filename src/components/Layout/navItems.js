@@ -18,6 +18,7 @@ function createRoute(pathname, children, leftAddon, parentId = null) {
 
 const navItems = {
   '/': createRoute('/', 'Home', <HomeSVGIcon />),
+  // 'Route 1' это имя пункта в меню, /route-1
   '/route-1': createRoute('/route-1', 'Route 1', <TvSVGIcon />),
 };
 
