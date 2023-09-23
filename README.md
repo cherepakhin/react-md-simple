@@ -1,3 +1,104 @@
+# Простой проект на React (+ React Material Design)
+
+[React Material Design](https://react-md.dev)
+
+### Тестирование (Jest)
+
+Добавить jest
+
+````shell
+yarn add --dev react-test-renderer
+````
+
+Тесты размещены в `src/__tests__/`
+
+Проведение теста
+
+````shell
+yarn test
+````
+
+Результат тестирования:
+
+````
+ PASS  src/__tests__/constants.spec.js
+  constatnts
+    ✓ Форматирование даты formatDate (6 ms)
+    ✓ Форматирование чисел (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        2.358 s, estimated 3 s
+Ran all test suites.
+
+Watch Usage: Press w to show more.
+
+Done in 6.50s
+````
+
+### Компиляция для prod
+
+````shell
+yarn build-prod
+````
+
+Компиляция идет ~15 сек.
+
+Log:
+
+````
+Compiled successfully.
+
+File sizes after gzip:
+
+  82.15 kB  build/static/js/main.80e63489.js
+  17.81 kB  build/static/css/main.f8c9eeb6.css
+  1.79 kB   build/static/js/787.62ea5e01.chunk.js
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+Done in 71.50s.
+````
+
+### Локальный запуск
+
+````shell
+react-md-my/simple$ yarn start
+````
+
+(описание шага 'start' в package.json ->scripts->start)
+
+````json
+  "scripts": {
+    "start": "react-scripts start",
+````
+
+### Размещение на сайте
+
+Содержимое каталога react-md-my/simple/build скопировать в /var/www/react-md-simple
+
+### Links
+
+[React MD color-palette](https://react-md.dev/colors-and-theming/color-palette)
+
+### VS Code
+
+Switch between code window/terminal:
+
+Press Ctrl + ` (backtick) to focus the terminal.
+Press Ctrl + 1 to focus the editor.
+
 # ReactMD and Create React App Example
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using [react-md](https://react-md.dev) as the component library.
@@ -99,100 +200,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-### Тестирование (Jest)
-
-Добавить jest
-
-````shell
-yarn add --dev react-test-renderer
-````
-
-Тесты размещены в `src/__tests__/`
-
-Проведение теста
-
-````shell
-yarn test
-````
-
-Результат тестирования:
-
-````
- PASS  src/__tests__/constants.spec.js
-  constatnts
-    ✓ Форматирование даты formatDate (6 ms)
-    ✓ Форматирование чисел (2 ms)
-
-Test Suites: 1 passed, 1 total
-Tests:       2 passed, 2 total
-Snapshots:   0 total
-Time:        2.358 s, estimated 3 s
-Ran all test suites.
-
-Watch Usage: Press w to show more.
-
-Done in 6.50s
-````
-
-### Компиляция для prod
-
-````shell
-yarn build-prod
-````
-
-Компиляция идет ~15 сек.
-
-Log:
-
-````
-Compiled successfully.
-
-File sizes after gzip:
-
-  82.15 kB  build/static/js/main.80e63489.js
-  17.81 kB  build/static/css/main.f8c9eeb6.css
-  1.79 kB   build/static/js/787.62ea5e01.chunk.js
-
-The project was built assuming it is hosted at /.
-You can control this with the homepage field in your package.json.
-
-The build folder is ready to be deployed.
-You may serve it with a static server:
-
-  serve -s build
-
-Find out more about deployment here:
-
-  https://cra.link/deployment
-
-Done in 71.50s.
-````
-
-### Локальный запуск
-
-````shell
-react-md-my/simple$ yarn start
-````
-
-(описание шага 'start' в package.json ->scripts->start)
-
-````json
-  "scripts": {
-    "start": "react-scripts start",
-````
-
-### Размещение на сайте
-
-Содержимое каталога react-md-my/simple/build скопировать в /var/www/react-md-simple
-
-### Links
-
-[React MD color-palette](https://react-md.dev/colors-and-theming/color-palette)
-
-### VS Code
-
-Switch between code window/terminal:
-
-Press Ctrl + ` (backtick) to focus the terminal.
-Press Ctrl + 1 to focus the editor.
