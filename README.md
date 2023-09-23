@@ -93,12 +93,11 @@ react-md-my/simple$ yarn start
 [React MD color-palette](https://react-md.dev/colors-and-theming/color-palette)
 
 ---
-### VS Code
-
-Switch between code window/terminal:
-
-Press Ctrl + ` (backtick) to focus the terminal.
-Press Ctrl + 1 to focus the editor.
+> **_NOTE:_** VS Code
+>
+>Switch between code window/terminal:<br/>
+>Press __Ctrl + `__ (backtick) to focus the terminal.<br/>
+>Press __Ctrl + 1__ to focus the editor.
 
 ---
 
