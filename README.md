@@ -167,3 +167,7 @@ Switch between code window/terminal in VS Code:
 
 Press Ctrl + ` (backtick) to focus the terminal.
 Press Ctrl + 1 to focus the editor.
+
+### Размещение на сайте
+
+Перенес содержимое каталога react-md-my/simple/build в /var/www/react-md-simple
