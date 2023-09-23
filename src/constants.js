@@ -48,7 +48,7 @@ if (process.env.NODE_ENV === 'production') {
 export const INITVAR = url;
 
 /**
- * Форматирование даты
+ * Форматирование даты в виде '2012-01-26' в '26.01.2012'
  * @param  {Date} ddate [description]
  * @return {string}     дата в виде dd.mm.yyyy
  */
