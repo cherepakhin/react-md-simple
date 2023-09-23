@@ -94,7 +94,9 @@ react-md-my/simple$ yarn start
 >Press __Ctrl + `__ (backtick) to focus the terminal.<br/>
 >Press __Ctrl + 1__ to focus the editor.
 
-# ReactMD and Create React App Example
+***
+
+### ReactMD and Create React App Example
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using [react-md](https://react-md.dev) as the component library.
 
