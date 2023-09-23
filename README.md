@@ -120,15 +120,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Jest
 
-add jest
+Добавить jest
 
 ````shell
 yarn add --dev react-test-renderer
 ````
 
-### Links
+Проведение теста
 
-[React MD color-palette](https://react-md.dev/colors-and-theming/color-palette)
+````shell
+yarn test
+````
+
+ PASS  src/__tests__/constants.spec.js
+  constatnts
+    ✓ Форматирование даты formatDate (6 ms)
+    ✓ Форматирование чисел (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        2.358 s, estimated 3 s
+Ran all test suites.
+
+Watch Usage: Press w to show more.
+
+Done in 6.50s
 
 ### Компиляция для prod
 
@@ -161,9 +178,9 @@ Find out more about deployment here:
 Done in 71.50s.
 ````
 
-### Other
+### VS Code
 
-Switch between code window/terminal in VS Code:
+Switch between code window/terminal:
 
 Press Ctrl + ` (backtick) to focus the terminal.
 Press Ctrl + 1 to focus the editor.
@@ -171,3 +188,7 @@ Press Ctrl + 1 to focus the editor.
 ### Размещение на сайте
 
 Содержимое каталога react-md-my/simple/build перенсти в /var/www/react-md-simple
+
+### Links
+
+[React MD color-palette](https://react-md.dev/colors-and-theming/color-palette)
