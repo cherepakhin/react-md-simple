@@ -92,6 +92,7 @@ react-md-my/simple$ yarn start
 
 [React MD color-palette](https://react-md.dev/colors-and-theming/color-palette)
 
+---
 ### VS Code
 
 Switch between code window/terminal:
