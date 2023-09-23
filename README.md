@@ -130,7 +130,7 @@ yarn add --dev react-test-renderer
 
 [React MD color-palette](https://react-md.dev/colors-and-theming/color-palette)
 
-### Build production
+### Компиляция для prod
 
 ````shell
 $ yarn build
