@@ -132,6 +132,8 @@ yarn add --dev react-test-renderer
 yarn test
 ````
 
+Результат тестирования:
+
 ````
  PASS  src/__tests__/constants.spec.js
   constatnts
@@ -180,13 +182,6 @@ Find out more about deployment here:
 Done in 71.50s.
 ````
 
-### VS Code
-
-Switch between code window/terminal:
-
-Press Ctrl + ` (backtick) to focus the terminal.
-Press Ctrl + 1 to focus the editor.
-
 ### Размещение на сайте
 
 Содержимое каталога react-md-my/simple/build перенсти в /var/www/react-md-simple
@@ -194,3 +189,11 @@ Press Ctrl + 1 to focus the editor.
 ### Links
 
 [React MD color-palette](https://react-md.dev/colors-and-theming/color-palette)
+
+### VS Code
+
+Switch between code window/terminal:
+
+Press Ctrl + ` (backtick) to focus the terminal.
+Press Ctrl + 1 to focus the editor.
+
