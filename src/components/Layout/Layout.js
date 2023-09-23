@@ -42,6 +42,7 @@ export default function Layout({ children }) {
   console.log(pathname);
   return (
     <Configuration icons={icons}>
+      {/* из Layout импортировали все в виде объекта RMDLayout*/}
       <RMDLayout
         tabletLayout="temporary"
         landscapeTabletLayout="temporary"

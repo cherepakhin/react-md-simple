@@ -10,11 +10,13 @@ export default function App() {
     <Layout>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* RouteScreen1.js это скрин с TextContainer  */}
-        {/* КАК ОФОРМИТЬ сам пункт меню  описано в navItems.js.
-          Связь через path.
+        {/*
+          Конфигурирование Route.
+          КАК ОФОРМИТЬ сам ПУНКТ меню описано в navItems.js (cвязь через "path")
           path также будет с строке браузера.
-        . RouteScreen1 отображать при выборе в /route-from-navitems*/}
+        . element - СТРАНИЦА перехода RouteScreen1 будет отображена при выборе в /route-from-navitems
+        */}
+        {/* RouteScreen1.js это TextContainer */}
         <Route path="/route-from-navitems" element={<RouteScreen1 />} />
       </Routes>
     </Layout>

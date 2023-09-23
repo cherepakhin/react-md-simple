@@ -16,20 +16,22 @@ function createRoute(pathname, children, leftAddon, parentId = null) {
   };
 }
 
-// ОФОРМЛЕНИЕ только МЕНЮ маршрутов. Вся механика в App.js
+// ОФОРМЛЕНИЕ и ПРИВЯЗКА только МЕНЮ маршрутов. Вся механика в App.js
+// navItems используется только в Layouts.js
 const navItems = {
   '/': createRoute('/', 'Home', <HomeSVGIcon />),
 
   // 'http://localhost:3000/route-from-navitems' - path в browser
-  // 'Route 1' - название пункта в меню
+  // 'Title item1' - название пункта в меню
   // any name for developer похоже какое-то любое имя. что-то типа коммента
   // все важное в createRoute()
 
   // /route-from-navitems - path в браузере.
   // Д.б. описан в  App/Layout/Routes/Route, как
   //     <Route path="/route-from-navitems" element={<RouteScreen1 />} />
-  // Здесь описание ОТОБРАЖЕНИЯ пункта и связь по "/route-from-navitems" с path из App/Routes/Route
-  'any name for developer': createRoute('/route-from-navitems', 'Route 1', <TvSVGIcon />),
+  // Здесь описание ОТОБРАЖЕНИЯ пункта.
+  // Связано по ключу "/route-from-navitems" с параметром "path" из App/Routes/Route
+  'any name for developer': createRoute('/route-from-navitems', 'Title item1', <TvSVGIcon />),
 };
 
 export default navItems;

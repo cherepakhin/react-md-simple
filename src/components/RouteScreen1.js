@@ -7,7 +7,7 @@ export default function RouteScreen1() {
         class RouteScreen1<br/>
         Message in TextContainer<br/>
         on item Route1<br/> 
-        link http://localhost:3000/route-1
+        link http://localhost:3000/route-from-navitems
       </Typography>
     </TextContainer>
   );
