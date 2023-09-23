@@ -84,7 +84,7 @@ react-md-my/simple$ yarn start
     "start": "react-scripts start",
 ````
 
-![screen](https://github.com/cherepakhin/react-md-simple/doc/screen.png)
+![screen](doc/screen.png)
 
 ### Размещение на сайте
 
