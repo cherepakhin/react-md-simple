@@ -11,7 +11,11 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         {/* RouteScreen1.js это скрин с TextContainer  */}
-        <Route path="route-1" element={<RouteScreen1 />} />
+        {/* КАК ОФОРМИТЬ сам пункт меню  описано в navItems.js.
+          Связь через path.
+          path также будет с строке браузера.
+        . RouteScreen1 отображать при выборе в /route-from-navitems*/}
+        <Route path="/route-from-navitems" element={<RouteScreen1 />} />
       </Routes>
     </Layout>
   );
