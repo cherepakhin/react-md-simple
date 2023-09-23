@@ -99,6 +99,8 @@ Switch between code window/terminal:
 Press Ctrl + ` (backtick) to focus the terminal.
 Press Ctrl + 1 to focus the editor.
 
+---
+
 # ReactMD and Create React App Example
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using [react-md](https://react-md.dev) as the component library.
