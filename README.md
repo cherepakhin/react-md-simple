@@ -188,10 +188,8 @@ react-md-my/simple$ yarn start
 (описание в package.json ->scripts->start)
 
 ````json
-...
   "scripts": {
     "start": "react-scripts start",
-...
 ````
 
 ### Размещение на сайте
