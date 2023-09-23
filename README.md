@@ -185,7 +185,7 @@ Done in 71.50s.
 react-md-my/simple$ yarn start
 ````
 
-(описание в package.json ->scripts->start)
+(описание шага 'start' в package.json ->scripts->start)
 
 ````json
   "scripts": {
