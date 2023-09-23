@@ -154,10 +154,13 @@ Done in 6.50s
 ### Компиляция для prod
 
 ````shell
-$ yarn build
+$ yarn build-prod
 ````
 
+Компиляция идет ~15 сек.
+
 Log:
+
 ````
 Compiled successfully.
 
