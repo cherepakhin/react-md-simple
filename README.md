@@ -92,9 +92,7 @@ react-md-my/simple$ yarn start
 
 Содержимое каталога react-md-my/simple/build скопировать в /var/www/react-md-simple
 
-### VS Code
-
-> **_NOTE:_**
+> **_NOTE:_** VS Code
 >
 >Switch between code window/terminal:<br/>
 >Press __Ctrl + `__ (backtick) to focus the terminal.<br/>
