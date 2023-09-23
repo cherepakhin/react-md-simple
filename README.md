@@ -129,7 +129,7 @@ yarn
 yarn start
 ```
 
-![screen](/doc/screen.png)
+![screen](doc/screen.png)
 
 ### Learn More
 
