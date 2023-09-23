@@ -132,6 +132,7 @@ yarn add --dev react-test-renderer
 yarn test
 ````
 
+````
  PASS  src/__tests__/constants.spec.js
   constatnts
     ✓ Форматирование даты formatDate (6 ms)
@@ -146,6 +147,7 @@ Ran all test suites.
 Watch Usage: Press w to show more.
 
 Done in 6.50s
+````
 
 ### Компиляция для prod
 
