@@ -179,6 +179,21 @@ Find out more about deployment here:
 Done in 71.50s.
 ````
 
+### Локальный запуск
+
+````shell
+react-md-my/simple$ yarn start
+````
+
+(описание в package.json ->scripts->start)
+
+````json
+...
+  "scripts": {
+    "start": "react-scripts start",
+...
+````
+
 ### Размещение на сайте
 
 Содержимое каталога react-md-my/simple/build перенсти в /var/www/react-md-simple
