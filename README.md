@@ -95,7 +95,6 @@ react-md-my/simple$ yarn start
 >Press __Ctrl + 1__ to focus the editor.
 
 ***
-***
 
 ### ReactMD and Create React App Example
 
@@ -138,7 +137,6 @@ To learn more about react-md and Create React App, take a look at the following 
 - [Configuring your Layout](https://react-md.dev/guides/configuring-your-layout)
 - [Create React App Documentation](https://create-react-app.dev/)
 
-***
 ***
 
 # Getting Started with Create React App
