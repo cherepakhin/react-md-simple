@@ -84,6 +84,8 @@ react-md-my/simple$ yarn start
     "start": "react-scripts start",
 ````
 
+![screen](doc/screen.png)
+
 ### Размещение на сайте
 
 Содержимое каталога react-md-my/simple/build скопировать в /var/www/react-md-simple
