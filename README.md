@@ -93,6 +93,11 @@ react-md-my/simple$ yarn start
 Содержимое каталога react-md-my/simple/build скопировать в /var/www/react-md-simple.
 Доступ по адресу [http://v.perm.ru/react-md-simple/](http://v.perm.ru/react-md-simple/)
 
+### Подглядывать в
+
+[https://github.com/cherepakhin/best-react-bs](https://github.com/cherepakhin/best-react-bs)
+
+[https://github.com/cherepakhin/best-bs](https://github.com/cherepakhin/best-bs)
 
 ### VS Code
 
