@@ -126,6 +126,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 yarn add --dev react-test-renderer
 ````
 
+Тесты размещены в `src/__tests__/`
+
 Проведение теста
 
 ````shell
