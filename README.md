@@ -129,6 +129,8 @@ yarn
 yarn start
 ```
 
+![screen](doc/screen.png)
+
 ### Learn More
 
 To learn more about react-md and Create React App, take a look at the following resources:
