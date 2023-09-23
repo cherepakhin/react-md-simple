@@ -90,7 +90,9 @@ react-md-my/simple$ yarn start
 
 ### Размещение на сайте
 
-Содержимое каталога react-md-my/simple/build скопировать в /var/www/react-md-simple
+Содержимое каталога react-md-my/simple/build скопировать в /var/www/react-md-simple.
+Доступ по адресу [http://v.perm.ru/react-md-simple/](http://v.perm.ru/react-md-simple/)
+
 
 ### VS Code
 
