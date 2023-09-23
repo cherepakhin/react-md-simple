@@ -170,4 +170,4 @@ Press Ctrl + 1 to focus the editor.
 
 ### Размещение на сайте
 
-Перенес содержимое каталога react-md-my/simple/build в /var/www/react-md-simple
+Содержимое каталога react-md-my/simple/build перенсти в /var/www/react-md-simple
