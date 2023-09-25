@@ -11,7 +11,7 @@ import PropTypes, { number, string, shape } from 'prop-types';
 //   );
 // }
 
-// Работает. Типовое использование с 'extend' и 'export'.
+// Работает. Типовое использование с 'extends' и 'export'.
 class Home extends React.Component {
   render() {
     return (

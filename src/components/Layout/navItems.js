@@ -1,4 +1,4 @@
-import { HomeSVGIcon, TvSVGIcon } from 'react-md';
+import { HomeSVGIcon, TvSVGIcon, SmsSVGIcon } from 'react-md';
 
 /**
  * Note: The `parentId` **must** be defaulted to `null` for the navigation tree
@@ -32,6 +32,8 @@ const navItems = {
   // Здесь описание ОТОБРАЖЕНИЯ пункта.
   // Связано по ключу "/route-from-navitems" с параметром "path" из App/Routes/Route
   'any name for developer': createRoute('/route-from-navitems', 'Title item1', <TvSVGIcon />),
+
+  'default export': createRoute('/default-export', 'Home with default export', <SmsSVGIcon />),
 };
 
 export default navItems;
