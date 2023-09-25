@@ -2,7 +2,7 @@ import React from 'react';
 import { TextContainer, Typography } from 'react-md';
 import PropTypes, { number, string, shape } from 'prop-types';
 
-// Работает
+// Работает. Короткий способ экспорта.
 // export default function Home() {
 //   return (
 //     <TextContainer>
