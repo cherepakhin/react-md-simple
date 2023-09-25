@@ -5,15 +5,11 @@ import { Home } from '../Home';
 
 configure({ adapter: new Adapter() });
 
-const props = {
-    msgText: "helloMessage"
-}
-
 describe('Home', () => {
     it('text message', () => {
       const homePage = shallow(<Home />);
      
-      expect(homePage.text().includes("class Home.js")).toBe(true);
+      expect(homePage.text().includes("class Home.js. Типовое использование React.Component с render")).toBe(true);
     //   expect("---").toBe(helloMessage);
     // expect(helloMessage.props().msgText).toBe("helloMessage");
     //   expect(cardTitle.props().title).toBe(props.feature.name);
