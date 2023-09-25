@@ -11,12 +11,14 @@ const props = {
 
 describe('Home', () => {
     it('text message', () => {
-      const homePage = shallow(<Home {...props}/>);
-      const helloMessage = homePage.find('msgText');
+      const homePage = shallow(<Home />);
+      const helloMessage = homePage.find('class Home.js');
+      
+      expect(homePage.text().includes("class Home.js")).toBe(true);
     //   expect("---").toBe(helloMessage);
-      expect(helloMessage.props().msgText).toBe("helloMessage");
+    // expect(helloMessage.props().msgText).toBe("helloMessage");
     //   expect(cardTitle.props().title).toBe(props.feature.name);
-      // expect(cardTitle.props().subtitle).toBe('NAME_EMPLOYEE(31.03.18)');
+    // expect(cardTitle.props().subtitle).toBe('NAME_EMPLOYEE(31.03.18)');
     });
 })
 
