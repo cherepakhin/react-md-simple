@@ -12,8 +12,7 @@ const props = {
 describe('Home', () => {
     it('text message', () => {
       const homePage = shallow(<Home />);
-      const helloMessage = homePage.find('class Home.js');
-      
+     
       expect(homePage.text().includes("class Home.js")).toBe(true);
     //   expect("---").toBe(helloMessage);
     // expect(helloMessage.props().msgText).toBe("helloMessage");
