@@ -6,7 +6,7 @@ class PageWithProps extends React.Component {
       return (
         <TextContainer>
           <Typography type="body-1">
-            class PageWithProps.js
+            class PageWithProps.js <i>props.msg</i>=<b>{this.props.msg}</b>
           </Typography>
         </TextContainer>
       );

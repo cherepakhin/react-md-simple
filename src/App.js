@@ -23,7 +23,7 @@ export default function App() {
         {/* RouteScreen1.js это TextContainer */}
         <Route path="/route-from-navitems" element={<RouteScreen1 />} />
         <Route path="/short-export" element={<HomePageWithShortExport />} />
-        <Route path="/page-with-props" element={<PageWithProps />} />
+        <Route path="/page-with-props" element={<PageWithProps msg='aaa'/>} />
       </Routes>
     </Layout>
   );
