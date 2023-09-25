@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Layout from './components/Layout';
 import {Home} from './components/Home';
-import HomePageWithDefaultExport from './components/HomePageWithDefaultExport';
+import HomePageWithShortExport from './components/HomePageWithShortExport';
 
 // RouteScreen1.js это скрин с TextContainer 
 import RouteScreen1 from './components/RouteScreen1'; 
@@ -20,7 +20,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         {/* RouteScreen1.js это TextContainer */}
         <Route path="/route-from-navitems" element={<RouteScreen1 />} />
-        <Route path="/default-export" element={<HomePageWithDefaultExport />} />
+        <Route path="/short-export" element={<HomePageWithShortExport />} />
       </Routes>
     </Layout>
   );

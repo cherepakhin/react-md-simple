@@ -33,7 +33,7 @@ const navItems = {
   // Связано по ключу "/route-from-navitems" с параметром "path" из App/Routes/Route
   'any name for developer': createRoute('/route-from-navitems', 'Title item1', <TvSVGIcon />),
 
-  'default export': createRoute('/default-export', 'Home with default export', <SmsSVGIcon />),
+  'short export': createRoute('/short-export', 'Home with short export', <SmsSVGIcon />),
 };
 
 export default navItems;
