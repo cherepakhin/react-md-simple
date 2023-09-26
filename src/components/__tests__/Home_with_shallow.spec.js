@@ -19,6 +19,8 @@ describe('Home with shallow', () => {
     it('show wrapper.debug()', () => {
       // Проверка props. Не проверял.
       const wrapper = shallow(<Home />);
-      // console.log(wrapper.debug());
+      console.log(wrapper.debug());
+      console.log(wrapper.find({children: "aaaa"}))
+      expect(wrapper.find({children: "aaaa"}).exists()).toEqual(true);
     });
 })
