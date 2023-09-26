@@ -7,7 +7,7 @@ import { Home } from '../Home';
 // Раскидать по разным файлам тесты с разной методикой
 configure({ adapter: new Adapter() });
 
-describe('Home', () => {
+describe('Home with render', () => {
     it('text message', () => {
       const homePage = shallow(<Home />);
      
@@ -20,7 +20,7 @@ describe('Home', () => {
     it('show wrapper.debug()', () => {
       // Проверка props. Не проверял.
       const wrapper = shallow(<Home />);
-      console.log(wrapper.debug());
+      // console.log(wrapper.debug());
     });
     it('const {asFragment, getByText} = render(<Home />)', () => {
       // from https://flexiple.com/react/react-testing-library-cheat-sheet
