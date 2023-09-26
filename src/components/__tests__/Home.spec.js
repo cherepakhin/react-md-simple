@@ -22,6 +22,7 @@ describe('Home', () => {
       console.log(wrapper.debug());
     });
     it('const {asFragment, getByText} = render(<Home />)', () => {
+      // from https://flexiple.com/react/react-testing-library-cheat-sheet
       const {asFragment, getByText} = render(<Home />);
       expect(getByText('aaaa')).toBeInTheDocument()
   });
