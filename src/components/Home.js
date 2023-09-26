@@ -14,13 +14,16 @@ import { TextContainer, Typography } from 'react-md';
 class Home extends React.Component {
   render() {
     return (
-      <TextContainer>
-        <Typography type="body-1">
-          class Home.js. Типовое использование React.Component с render() <br/>
-          с <b>extends</b> и <b>export</b> класс определен так: <br/>
-          <b>class Home extends React.Component </b>
-        </Typography>
-      </TextContainer>
+      <div>
+        <TextContainer>
+          <Typography type="body-1">
+            class Home.js. Типовое использование React.Component с render() <br/>
+            с <b>extends</b> и <b>export</b> класс определен так: <br/>
+            <b>class Home extends React.Component </b>
+          </Typography>
+        </TextContainer>
+        <div id="msgText">aaaa</div>
+      </div>
     );
   }
 }

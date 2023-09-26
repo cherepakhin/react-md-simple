@@ -1,4 +1,5 @@
 import React from 'react';
+import { render, screen } from '@testing-library/react';
 import { shallow, mount, configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import { Home } from '../Home';
@@ -15,5 +16,14 @@ describe('Home', () => {
     //   expect(cardTitle.props().title).toBe(props.feature.name);
     // expect(cardTitle.props().subtitle).toBe('NAME_EMPLOYEE(31.03.18)');
     });
+    it('show wrapper.debug()', () => {
+      // Проверка props. Не проверял.
+      const wrapper = shallow(<Home />);
+      console.log(wrapper.debug());
+    });
+    it('const {asFragment, getByText} = render(<Home />)', () => {
+      const {asFragment, getByText} = render(<Home />);
+      expect(getByText('aaaa')).toBeInTheDocument()
+  });
 })
 
