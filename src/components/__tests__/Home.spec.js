@@ -4,6 +4,7 @@ import { shallow, mount, configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import { Home } from '../Home';
 
+// Раскидать по разным файлам тесты с разной методикой
 configure({ adapter: new Adapter() });
 
 describe('Home', () => {
