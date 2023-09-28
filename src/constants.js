@@ -1,12 +1,3 @@
-
-let url = { URL_SERVER: 'http://127.0.0.1:8000/rshop' };
-if (process.env.NODE_ENV === 'production') {
-  url = { URL_SERVER: 'http://v..ru/rshop' };
-}
-
-// let url = { URL_SERVER: 'http://m.el59.ru/rshop' };
-export const INITVAR = url;
-
 /**
  * Форматирование даты в виде '2012-01-26' в '26.01.2012'
  * @param  {Date} ddate [description]
@@ -28,6 +19,9 @@ export let formatDate = function (ddate) {
 export let dateFormatter = new Intl.DateTimeFormat('ru');
 
 export const getHeaderForJSON = function (json) {
+// let - Областью видимости переменных, объявленных ключевым словом let,
+// является блок, в котором они объявлены, и все его подблоки.
+// https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/let
   let body = '';
   if (json != '') {
     body = JSON.stringify(json);

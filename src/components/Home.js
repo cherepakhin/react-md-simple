@@ -1,7 +1,7 @@
 import React from 'react';
 import { TextContainer, Typography } from 'react-md';
 
-// Работает. Короткий способ экспорта.
+// Работает. Короткий способ экспорта см. в HomePageWithShortExport.js
 // export default function Home() {
 //   return (
 //     <TextContainer>
@@ -18,11 +18,15 @@ class Home extends React.Component {
         <TextContainer>
           <Typography type="body-1">
             class Home.js. Типовое использование React.Component с render() <br/>
-            с <b>extends</b> и <b>export</b> класс определен так: <br/>
-            <b>class Home extends React.Component </b>
+            класс определен так: <br/>
+            <i>class Home extends React.Component &#123; <br/>
+            &nbsp;&nbsp;render() &#123; <br/>&nbsp;&nbsp;
+              return  ( div.../div) <br/>
+              &#125;
+            &#125;</i>
           </Typography>
         </TextContainer>
-        <div id="msgText">aaaa</div>
+        <div>Просто какой-то текст для примера вне TextContainer.</div>
       </div>
     );
   }

@@ -16,7 +16,7 @@ function createRoute(pathname, children, leftAddon, parentId = null) {
   };
 }
 
-// ОФОРМЛЕНИЕ и ПРИВЯЗКА только МЕНЮ маршрутов. Вся механика в App.js
+// Описано только ОФОРМЛЕНИЕ и ПРИВЯЗКА только МЕНЮ маршрутов. Вся механика в App.js
 // navItems используется только в Layouts.js
 const navItems = {
   '/': createRoute('/', 'Home', <HomeSVGIcon />),
