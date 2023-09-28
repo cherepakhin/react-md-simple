@@ -1,5 +1,4 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
 import { shallow, mount, configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import { Home } from '../Home';
@@ -19,8 +18,8 @@ describe('Home with shallow', () => {
     it('show wrapper.debug()', () => {
       // Проверка props. Не проверял.
       const wrapper = shallow(<Home />);
-      console.log(wrapper.debug());
-      console.log(wrapper.find({children: "aaaa"}))
+      // console.log(wrapper.debug());
+      // console.log(wrapper.find({children: "aaaa"}))
       expect(wrapper.find({children: "aaaa"}).exists()).toEqual(true);
     });
 })

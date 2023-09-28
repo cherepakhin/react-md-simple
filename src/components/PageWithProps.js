@@ -1,24 +1,21 @@
 import React from 'react';
 import { TextContainer, Typography } from 'react-md';
-import PropTypes from 'prop-types';
 
 /* 
 Использование: <PageWithProps msg='aaa'/> 
 в компоненте msg доступно в this.props.msg
+Не прокатило (class PageWithProps.js <i>this.props.msg</i>=<b>{this.props.msg}</b>)
 */
-class PageWithProps extends React.Component {
-    static propTypes = {
-        msg: PropTypes.string.isRequired
-    };
-    render() {
+const PageWithProps = ( {msg} ) => {
       return (
-        <TextContainer>
-          <Typography type="body-1">
-            class PageWithProps.js <i>props.msg</i>=<b>{this.props.msg}</b>
-          </Typography>
-        </TextContainer>
+        <React.Fragment>
+          <TextContainer>
+            <Typography type="body-1">
+            class PageWithProps.js <i>simple use variable `msg`</i>=<b>{msg}</b>
+            </Typography>
+          </TextContainer>
+        </React.Fragment>
       );
-    }
-  }
+}
   
-  export { PageWithProps };
+export { PageWithProps };
