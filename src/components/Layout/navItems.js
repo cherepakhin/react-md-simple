@@ -33,9 +33,9 @@ const navItems = {
   // Здесь вообще НИЧЕГО НЕТ об отображении страниц, ктр. будут отображены (HomePageWithShortExport, SimpleComponentEs6, PageWithProps)
   // Страницы привязаны по ключу ( н.п. "/route-from-navitems") с параметром "path" из App/Routes/Route
 
-  'any name for developer': createRoute('/route-from-navitems', 'Title item1', <TvSVGIcon />),
+  'short export': createRoute('/short-export', 'Home with short export', <HomeSVGIcon />),
 
-  'short export': createRoute('/short-export', 'Home with short export', <SmsSVGIcon />),
+  'any name for developer': createRoute('/route-from-navitems', 'Title item1', <TvSVGIcon />),
   'page with props': createRoute('/page-with-props', 'Page with props', <PagesSVGIcon />),
   'simple component ES6': createRoute('/page-with-props-es6', 'Page with props ES6', <PagesSVGIcon />),
 };

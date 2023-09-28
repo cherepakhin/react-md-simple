@@ -6,9 +6,9 @@ import { TextContainer, Typography } from 'react-md';
 export default function HomePageWithShortExport() {
   return (
     <TextContainer>
-      <Typography type="body-1">Короткий экспорт (без render() {} ):<br/>
+      <Typography type="body-1">Короткий экспорт (без render()):<br/>
       "export default function HomePageWithShortExport() &#123; return () &#125;"<br/>
-      "нормальное использование в классе Home.js"
+      "нормальное использование в классе Home.js"<br/>
       </Typography>
     </TextContainer>
   );
