@@ -7,7 +7,7 @@ import { TextContainer, Typography } from 'react-md';
 // внимание к определению prop1, prop2
 
 // for import use 'import PageWithManyElements from './components/PageWithManyElements'
-// ВНИМАНИЕ! Здесь определение компонента ДРУГОЕ , не как в PageWithProps = ( {msg} ) => {
+// ВНИМАНИЕ! Здесь определение компонента ДРУГОЕ, с (props) , не как в PageWithProps = ( {msg} ) => {
 function PageWithManyProps(props) {
   console.log(props) // -> {prop1: 'val_prop1', prop2: 'val_prop2'}
   return (
