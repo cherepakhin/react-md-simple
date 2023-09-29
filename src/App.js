@@ -7,7 +7,7 @@ import HomePageWithShortExport from './components/HomePageWithShortExport';
 // RouteScreen1.js это скрин с TextContainer 
 import RouteScreen1 from './components/RouteScreen1'; 
 
-import {PageWithProps} from './components/PageWithProps'; 
+import {PageWithMsg} from './components/PageWithMsg';
 import {SimpleComponentEs6} from './components/SimpleComponentEs6';
 import {PageWithManyProps} from './components/PageWithManyProps';
 
@@ -26,8 +26,10 @@ export default function App() {
         <Route path="/route-from-navitems" element={<RouteScreen1 />} />
         <Route path="/short-export" element={<HomePageWithShortExport />} />
         <Route path="/page-with-props-es6" element={<SimpleComponentEs6 msg="MESSAGE from SimpleComponentEs6"/>} />
-        <Route path="/page-with-props" element={<PageWithProps msg="MESSAGE from PageWithProps"/>} />
-        <Route path="/page-with-many-props" element={<PageWithManyProps prop1="val_prop1" prop2="val_prop2"/>} />
+        <Route path="/page-with-props"
+              element={<PageWithMsg msg="MESSAGE from PageWithProps"/>} />
+        <Route path="/page-with-many-props"
+              element={<PageWithManyProps prop1="val_prop1" prop2="val_prop2"/>} />
       </Routes>
     </Layout>
   );
