@@ -9,6 +9,7 @@ import RouteScreen1 from './components/RouteScreen1';
 
 import {PageWithProps} from './components/PageWithProps'; 
 import {SimpleComponentEs6} from './components/SimpleComponentEs6';
+import {PageWithManyProps} from './components/PageWithManyProps';
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/short-export" element={<HomePageWithShortExport />} />
         <Route path="/page-with-props-es6" element={<SimpleComponentEs6 msg="MESSAGE from SimpleComponentEs6"/>} />
         <Route path="/page-with-props" element={<PageWithProps msg="MESSAGE from PageWithProps"/>} />
+        <Route path="/page-with-many-props" element={<PageWithManyProps prop1="val_prop1" prop2="val_prop2"/>} />
       </Routes>
     </Layout>
   );

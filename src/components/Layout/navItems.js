@@ -38,6 +38,7 @@ const navItems = {
   'any name for developer': createRoute('/route-from-navitems', 'Title item1', <TvSVGIcon />),
   'page with props': createRoute('/page-with-props', 'Page with props', <PagesSVGIcon />),
   'simple component ES6': createRoute('/page-with-props-es6', 'Page with props ES6', <PagesSVGIcon />),
+  'page with many props': createRoute('/page-with-many-props', 'Page with many props', <PagesSVGIcon />),
 };
 
 export default navItems;
