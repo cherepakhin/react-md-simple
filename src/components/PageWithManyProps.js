@@ -20,8 +20,8 @@ function PageWithManyProps(props) {
                 element={<PageWithManyProps prop1="val_prop1" prop2="val_prop2"/>} />
           внимание к определению prop1, prop2
         */}
-        <Typography type="body-1">val prop1='{props.prop1}'</Typography>
-        <Typography type="body-1">val prop2='{props.prop2}'</Typography>
+        <Typography type="body-1">val prop1={props.prop1}</Typography>
+        <Typography type="body-1">val prop2={props.prop2}</Typography>
         {/* <Typography type="body-1">val fromUseParams='{fromUseParams}'</Typography> */}
       </TextContainer>
     </div>
