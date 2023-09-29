@@ -1,4 +1,4 @@
-import { HomeSVGIcon, TvSVGIcon, SmsSVGIcon, PagesSVGIcon } from 'react-md';
+import { HomeSVGIcon, TvSVGIcon, Filter6SVGIcon, PagesSVGIcon, ListSVGIcon } from 'react-md';
 
 /**
  * Note: The `parentId` **must** be defaulted to `null` for the navigation tree
@@ -36,9 +36,9 @@ const navItems = {
   'short export': createRoute('/short-export', 'Home with short export', <HomeSVGIcon />),
 
   'any name for developer': createRoute('/route-from-navitems', 'Title item1', <TvSVGIcon />),
-  'page with props': createRoute('/page-with-props', 'Page with props', <PagesSVGIcon />),
-  'simple component ES6': createRoute('/page-with-props-es6', 'Page with props ES6', <PagesSVGIcon />),
-  'page with many props': createRoute('/page-with-many-props', 'Page with many props', <PagesSVGIcon />),
+  'page with props': createRoute('/page-with-prop', 'Page with prop', <PagesSVGIcon />),
+  'simple component ES6': createRoute('/page-with-props-es6', 'Page with props ES6', <Filter6SVGIcon />),
+  'page with many props': createRoute('/page-with-many-props', 'Page with many props', <ListSVGIcon />),
 };
 
 export default navItems;
