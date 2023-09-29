@@ -5,6 +5,7 @@ import { TextContainer, Typography } from 'react-md';
 // You can also use an ES6 class to define a component:
 // call: <SimpleComponentEs6 msg="MESSAGE from SimpleComponentEs6"/> (see in App.js)
 // access to props in render() in SimpleComponentEs6: <b>{this.props.msg}</b> 
+// this.props.msg - это props
 class SimpleComponentEs6 extends React.Component {
     render() {
         return (
