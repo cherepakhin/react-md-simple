@@ -1,6 +1,10 @@
 import React from 'react';
 import { TextContainer, Typography } from 'react-md';
-import { useParams } from 'react-router-dom';
+
+// Demo many params
+// Использовано в App.js, как:
+// <Route path="/page-with-many-props" element={<PageWithManyProps prop1="val_prop1" prop2="val_prop2"/>} />
+// внимание к определению prop1, prop2
 
 // for import use 'import PageWithManyElements from './components/PageWithManyElements'
 // const PageWithProps = ( {msg} ) => {
