@@ -16,7 +16,7 @@ describe('PageWithMsg with mount', () => {
       // const  wrapper = shallow(<PageWithMsg {...props}/>);
       
       const  wrapper = shallow(<PageWithMsg msg="MESSAGE1"/>);
-      console.log("+++++++++++++");
+      // '#' означает поиск по id <div id="msgid">...</>
       expect(wrapper.find('#msgid').html()).toContain('MESSAGE1');
       // expect(wrapper.props().includedProp).to.equal('Success!');
       // expect(wrapper.props().msg).to.equal('MESSAGE1');
