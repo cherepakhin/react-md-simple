@@ -6,8 +6,10 @@ import Adapter from 'enzyme-adapter-react-16';
 configure({ adapter: new Adapter() });
 
 describe('MyComponent with shallow', () => {
-    it('simple', () => {
-        // expect('MESSAGE1').to.equal('MESSAGE1');
+    it('simple test Int', () => {
         expect(1).toBe(1);
+    });
+    it('simple test String', () => {
+        expect('MESSAGE1').toBe('MESSAGE1');
     });
 })

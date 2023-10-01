@@ -10,6 +10,7 @@ import RouteScreen1 from './components/RouteScreen1';
 import {PageWithMsg} from './components/PageWithMsg';
 import {SimpleComponentEs6} from './components/SimpleComponentEs6';
 import {PageWithManyProps} from './components/PageWithManyProps';
+import {PageWithMyComponent} from './components/PageWithMyComponent';
 
 export default function App() {
   return (
@@ -34,6 +35,8 @@ export default function App() {
            доступ к значениям props через {props.prop1},{props.prop2} */}
         <Route path="/page-with-many-props"
               element={<PageWithManyProps prop1="val_prop1" prop2="val_prop2"/>} />
+        <Route path="/page-my-component"
+              element={<PageWithMyComponent msg="val_prop1"/>} />
       </Routes>
     </Layout>
   );

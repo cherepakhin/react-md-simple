@@ -39,6 +39,7 @@ const navItems = {
   'page with msg': createRoute('/page-with-prop', 'Page with prop', <LooksOneSVGIcon />),
   'simple component ES6': createRoute('/page-with-props-es6', 'Page with props ES6', <Filter6SVGIcon />),
   'page with many props': createRoute('/page-with-many-props', 'Page with many props', <ListSVGIcon />),
+  'page my_component': createRoute('/page-my-component', 'Page with MyComponent', <ListSVGIcon />),
 };
 
 export default navItems;
