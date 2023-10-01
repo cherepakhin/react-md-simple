@@ -7,7 +7,7 @@ function MyComponent(props) {
     const { msg1, msg2 } = props;
     return (
         <div>
-        <div >This is MyComponent with:</div>
+        <div >This is MyComponent with ordinary use props and prop(<b>msg1</b>) from parent:</div>
         <div>props.msg1=<b>{msg1}</b></div>
         <div>props.msg2={msg2}</div>
         </div>
