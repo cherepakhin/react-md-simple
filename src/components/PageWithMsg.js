@@ -12,7 +12,7 @@ const PageWithMsg = ( {msg} ) => {
         <React.Fragment>
           <TextContainer>
             <Typography type="body-1">
-            class PageWithMsg.js <i>simple use variable `msg`</i>=<b><div msgid="msgid">{msg}</div></b>
+            class PageWithMsg.js <i>simple use variable `msg`</i>=<b><div id="msgid">{msg}</div></b>
             </Typography>
           </TextContainer>
         </React.Fragment>
