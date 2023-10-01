@@ -7,8 +7,9 @@ function MyComponent(props) {
     const { msg1, msg2 } = props;
     return (
         <div>
-        <div >This is MyComponent with props.msg1=<b>{msg1}</b></div>
-        <div >and props.msg2={msg2}</div>
+        <div >This is MyComponent with:</div>
+        <div>props.msg1=<b>{msg1}</b></div>
+        <div>props.msg2={msg2}</div>
         </div>
     );
 }
