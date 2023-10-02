@@ -27,14 +27,6 @@ describe('PageWithMsg with mount', () => {
     // '#' означает поиск по id <div id="msgid">...</>
     expect(wrapper.find('#msgid').html()).toContain('MESSAGE1');
   });
-  it('render(<PageWithMsg with props/>) test equal', () => {
-    const props = {
-      msg: "MESSAGE1"
-    }
-    const wrapper = shallow(<PageWithMsg {...props} />);
-    // '#' означает поиск по id <div id="msgid">...</>
-    expect(wrapper.find('#msgid').html()).toContain('MESSAGE1');
-  });
 
   // expect(wrapper.props().includedProp).to.equal('Success!');
   // expect(wrapper.props().msg).to.equal('MESSAGE1');
