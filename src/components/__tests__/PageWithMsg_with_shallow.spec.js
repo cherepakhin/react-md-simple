@@ -8,7 +8,6 @@ configure({ adapter: new Adapter() });
 
 describe('PageWithMsg with shallow', () => {
   it('shallow(<PageWithMsg msg="MESSAGE1"/>)', () => {
-    //const wrapper = mount(<PageWithProps props={msg}/>);  // TypeError: Cannot read properties of undefined (reading 'child')
 
     const wrapper = shallow(<PageWithMsg msg="MESSAGE1" />);
     // '#' означает поиск по id <div id="msgid">...</>
