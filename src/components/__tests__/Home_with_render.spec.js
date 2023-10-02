@@ -8,7 +8,7 @@ import { Home } from '../Home';
 configure({ adapter: new Adapter() });
 
 describe('Home with render', () => {
-    it('const {asFragment, getByText} = render(<Home />)', () => {
+    it('const {asFragment, getByText} = render(<Home />) and test screen.getByTestId', () => {
       // from https://flexiple.com/react/react-testing-library-cheat-sheet
       const {asFragment, getByText} = render(<Home />);
       screen.debug(); // выводит на консоль содержимое Home в html формате
