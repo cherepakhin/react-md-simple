@@ -26,7 +26,7 @@ class Home extends React.Component {
             &#125;</i>
           </Typography>
         </TextContainer>
-        <div data-testid="home-simple-text">Просто какой-то текст для примера вне TextContainer.</div>
+        <div data-testid="home-simple-text">Просто какой-то текст для примера вне TextContainer(home-simple-text).</div>
         <div id="id_home_text">Просто какой-то текст для примера вне TextContainer.</div>
       </div>
     );

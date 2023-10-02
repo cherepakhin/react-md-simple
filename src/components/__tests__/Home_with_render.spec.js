@@ -16,7 +16,7 @@ describe('Home with render', () => {
       // детали в https://www.freecodecamp.org/news/react-testing-library-tutorial-javascript-example-code/
 
       expect(screen.getByTestId('home-simple-text')).toBeInTheDocument();
-      expect(screen.getByTestId('home-simple-text').textContent).toBe("Просто какой-то текст для примера вне TextContainer.");
+      expect(screen.getByTestId('home-simple-text').textContent).toBe("Просто какой-то текст для примера вне TextContainer(home-simple-text).");
   });
 })
 
