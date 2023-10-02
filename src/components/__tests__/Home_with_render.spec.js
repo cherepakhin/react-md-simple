@@ -11,7 +11,11 @@ describe('Home with render', () => {
     it('const {asFragment, getByText} = render(<Home />)', () => {
       // from https://flexiple.com/react/react-testing-library-cheat-sheet
       const {asFragment, getByText} = render(<Home />);
-      // expect(getByText('div')).toBeInTheDocument()
+      screen.debug(); // выводит на консоль содержимое Home в html формате
+      // <body><div><div><div  class="rmd-text-container rmd-text-container--auto"> ...</body>
+      // детали в https://www.freecodecamp.org/news/react-testing-library-tutorial-javascript-example-code/
+
+      expect(screen.getByTestId('home-simple-text')).toBeInTheDocument()
   });
 })
 
