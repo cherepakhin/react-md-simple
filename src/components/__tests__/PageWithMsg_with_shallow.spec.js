@@ -20,6 +20,7 @@ describe('PageWithMsg with shallow', () => {
     const wrapper = shallow(<PageWithMsg {...props} />);
     // '#' означает поиск по id <div id="msgid">...</>
     expect(wrapper.find('#msgid').html()).toContain('MESSAGE1');
+    expect(wrapper.find('#msgid').html()).toBe('<div id=\"msgid\">MESSAGE1</div>');
   });
 
   // expect(wrapper.props().includedProp).to.equal('Success!');
