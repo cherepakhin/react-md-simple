@@ -13,6 +13,7 @@ describe('PageWithMsg with shallow', () => {
     // '#' означает поиск по id <div id="msgid">...</>
     expect(wrapper.find('#msgid').html()).toContain('MESSAGE1');
   });
+
   it('shallow(<PageWithMsg with props/>)', () => {
     const props = {
       msg: "MESSAGE1"
