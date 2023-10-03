@@ -11,7 +11,7 @@ describe('Home with render', () => {
     it('const {asFragment, getByText} = render(<Home />) and test screen.getByTestId', () => {
       // from https://flexiple.com/react/react-testing-library-cheat-sheet
       const {asFragment, getByText} = render(<Home />);
-      screen.debug(); // выводит на консоль содержимое Home в html формате
+      // screen.debug(); // выводит на консоль содержимое Home в html формате
       // <body><div><div><div  class="rmd-text-container rmd-text-container--auto"> ...</body>
       // детали в https://www.freecodecamp.org/news/react-testing-library-tutorial-javascript-example-code/
 
