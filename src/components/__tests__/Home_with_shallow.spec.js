@@ -16,12 +16,9 @@ describe('Home with shallow', () => {
     //   expect(cardTitle.props().title).toBe(props.feature.name);
     // expect(cardTitle.props().subtitle).toBe('NAME_EMPLOYEE(31.03.18)');
     });
-    // it('show wrapper.debug()', () => {
-      // Проверка props. Не проверял.
-      // const wrapper = shallow(<Home />);
-      // console.log(wrapper.debug());
-      // console.log(wrapper.find({children: "aaaa"}))
-      // console.log(wrapper.find({children: "aaaa"}).exists());
-      //expect(wrapper.find({children: "aaaa"}).exists()).toEqual(true);
-    // });
+    it('show wrapper.debug()', () => {
+      const wrapper = shallow(<Home />);
+      expect(wrapper.find('#id_home_text').html()).toContain('Текст id_home_text.');
+      expect(wrapper.find('#id_home_text').text()).toBe('Текст id_home_text.');
+    });
 })
