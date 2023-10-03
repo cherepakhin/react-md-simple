@@ -17,8 +17,9 @@ describe('Home with render', () => {
 
       expect(screen.getByTestId('home-simple-text')).toBeInTheDocument();
       expect(screen.getByTestId('home-simple-text').textContent).toBe("Текст для data-testid=home-simple-text.");
-      expect(getByText('Текст для data-testid=home-simple-text.').textContent).toBe("Текст для data-testid=home-simple-text.");
+
       expect(getByText('Текст для data-testid=home-simple-text.')).toBeInTheDocument();
+      expect(getByText('Текст для data-testid=home-simple-text.').textContent).toBe("Текст для data-testid=home-simple-text.");
   });
 })
 
