@@ -109,6 +109,10 @@ react-md-my/simple$ yarn start
 
 ***
 
+### Замечания
+
+Зависимость "@babel/plugin-proposal-private-property-in-object":"7.21.11" нужна для подавления лишних warnings.
+
 ### ReactMD and Create React App Example
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using [react-md](https://react-md.dev) as the component library.
