@@ -285,3 +285,30 @@ function fun1(...params) {
 
 }
 ````
+
+6) Использование в reduce:
+
+````javascript
+let Sum = (...numbers) => {
+    return numbers.reduce((prev, current) => prev + current);
+}
+console.log(Sum(1, 2, 3, 4, 5, 6, 7, 8, 9)); // 45
+````
+
+7) Неправильное использование:
+
+````javascript
+var component = <Component />;
+component.props.foo = x; // bad
+component.props.bar = y; // also bad
+
+````
+
+правильное:
+
+````javascript
+var props = {};
+props.foo = x;
+props.bar = y;
+var component = <Component {...props} />; // СРАЗУ создание с параметрами
+````
