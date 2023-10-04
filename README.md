@@ -20,7 +20,7 @@ yarn test
 
 Результат тестирования:
 
-````
+````text
  PASS  src/__tests__/constants.spec.js
   constatnts
     ✓ Форматирование даты formatDate (6 ms)
@@ -47,7 +47,7 @@ yarn build-prod
 
 Log:
 
-````
+````text
 Compiled successfully.
 
 File sizes after gzip:
