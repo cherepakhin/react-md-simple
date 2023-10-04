@@ -28,6 +28,11 @@ class Home extends React.Component {
         </TextContainer>
         <div data-testid="home-simple-text">Текст для data-testid=home-simple-text.</div>
         <div id="id_home_text">Текст id_home_text.</div>
+        <br/>
+        <Typography type="overline">Размеры шрифтов:</Typography>
+        <div>Шрифт по умолчанию</div>
+        <div><i>Шрифт по умолчанию(italic)</i></div>
+        <div><b>Шрифт по умолчанию(bold)</b></div>
         <TextContainer>
           <Typography type="headline-1">Headline 1</Typography>
           <Typography type="headline-2">Headline 2</Typography>
