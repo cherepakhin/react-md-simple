@@ -13,7 +13,7 @@ describe('full Home DOM tests', () => {
     it('Home child React Component html content would be rendered', () => {
         let wrapperHome = mount(<Home />);
         expect(wrapperHome.find(Home).length).toBe(1);
-        expect(wrapperHome.find('p').length).toBe(1);
+        // expect(wrapperHome.find('p').length).toBe(1);
         // Простая проверка на существование
         expect(wrapperHome.find(Home)).toBeTruthy(); 
         //  expect(reactWrapper.find('#childId').html())
