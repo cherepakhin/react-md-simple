@@ -15,7 +15,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <TextContainer>
+        <TextContainer >
           <Typography type="body-1">
             class Home.js. Типовое использование React.Component с render() <br/>
             класс определен так: <br/>
@@ -28,6 +28,22 @@ class Home extends React.Component {
         </TextContainer>
         <div data-testid="home-simple-text">Текст для data-testid=home-simple-text.</div>
         <div id="id_home_text">Текст id_home_text.</div>
+        <TextContainer>
+          <Typography type="headline-1">Headline 1</Typography>
+          <Typography type="headline-2">Headline 2</Typography>
+          <Typography type="headline-3">Headline 3</Typography>
+          <Typography type="headline-4">Headline 4</Typography>
+          <Typography type="headline-5">Headline 5</Typography>
+          <Typography type="headline-6">Headline 6</Typography>
+          <Typography type="subtitle-1">Subtitle 1</Typography>
+          <Typography type="subtitle-2">Subtitle 2</Typography>
+          <Typography type="body-1">Body 1</Typography>
+          <Typography type="body-2">Body 2</Typography>
+          <Typography type="overline">Overline</Typography>
+          <Typography type="caption" component="p">
+            Caption
+          </Typography>
+      </TextContainer>
       </div>
     );
   }
