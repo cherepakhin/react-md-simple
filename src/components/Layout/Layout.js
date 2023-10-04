@@ -43,6 +43,9 @@ export default function Layout({ children }) {
   return (
     <Configuration icons={icons}>
       {/* из Layout импортировали все в виде объекта с именем RMDLayout */}
+      {/* temporary - тип размещения. Для всех устройств выбран одно и тоже размещение.
+      Демо разных вариантов отображеия: https://react-md.dev/packages/layout/demos
+      */}
       <RMDLayout
         tabletLayout="temporary"
         landscapeTabletLayout="temporary"
