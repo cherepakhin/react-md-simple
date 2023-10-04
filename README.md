@@ -222,7 +222,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Разное
 
-[Примеры использования '...':](https://stackoverflow.com/questions/31048953/what-are-these-three-dots-in-react-doing)
+[Очень подробно и с примерами о '...':](https://stackoverflow.com/questions/31048953/what-are-these-three-dots-in-react-doing)
 
 1) Для массива
 
