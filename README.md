@@ -95,7 +95,7 @@ react-md-my/simple$ yarn start
 
 ### Подглядывать в
 
-[https://github.com/cherepakhin/best-react-bs](https://github.com/cherepakhin/best-react-bs)
+[https://github.com/cherepakhin/best-react-bs](https://github.com/cherepakhin/best-react-bs)<br/>
 [https://github.com/cherepakhin/best-bs](https://github.com/cherepakhin/best-bs)
 
 ### VS Code
