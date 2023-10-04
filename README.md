@@ -110,7 +110,7 @@ react-md-my/simple$ yarn start
 
 ### Замечания
 
-Зависимость "@babel/plugin-proposal-private-property-in-object":"7.21.11" нужна для подавления лишних warnings.
+Зависимость "@babel/plugin-proposal-private-property-in-object":"7.21.11" нужна для подавления "лишних" warnings.
 
 ### ReactMD and Create React App Example
 
