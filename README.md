@@ -220,7 +220,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 [React MD color-palette](https://react-md.dev/colors-and-theming/color-palette)
 
-### Разное
+### О "..."
 
 [Очень подробно и с примерами о '...':](https://stackoverflow.com/questions/31048953/what-are-these-three-dots-in-react-doing)
 
@@ -231,7 +231,16 @@ var parts = ['two', 'three'];
 var numbers = ['one', ...parts, 'four', 'five']; // ["one", "two", "three", "four", "five"]
 ````
 
-2) Для объекта
+2) Сложение массивов:
+
+````javascript
+ var shooterGames = ['Call of Duty', 'Far Cry', 'Resident Evil'];
+ var racingGames = ['Need For Speed', 'Gran Turismo', 'Burnout'];
+ var games = [...shooterGames, ...racingGames];
+  console.log(games)  // ['Call of Duty', 'Far Cry', 'Resident Evil',  'Need For Speed', 'Gran Turismo', 'Burnout']
+````
+
+3) Для объекта
 
 ````javascript
 var person= {
@@ -242,19 +251,10 @@ var person= {
 <Modal {...person} title='Modal heading' animation={false} />
 ````
 
-is equal to
+эквивалентоно:
 
 ````javascript
 <Modal name={person.name} age={person.age} title='Modal heading' animation={false} />
-````
-
-3) Сложение массивов:
-
-````javascript
- var shooterGames = ['Call of Duty', 'Far Cry', 'Resident Evil'];
- var racingGames = ['Need For Speed', 'Gran Turismo', 'Burnout'];
- var games = [...shooterGames, ...racingGames];
-  console.log(games)  // ['Call of Duty', 'Far Cry', 'Resident Evil',  'Need For Speed', 'Gran Turismo', 'Burnout']
 ````
 
 4) Комбинирование объектов:
